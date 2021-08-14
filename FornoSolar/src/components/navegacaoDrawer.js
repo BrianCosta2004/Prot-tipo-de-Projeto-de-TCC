@@ -8,8 +8,8 @@ const Drawer = createDrawerNavigator();
 const navegacaoDrawer = () => {
   return (
     <Drawer.Navigator>
-      <Drawer.Screen name="contato" component={contato}/>
       <Drawer.Screen name="sobre" component={sobre}/>
+      <Drawer.Screen name="contato" component={contato}/>
     </Drawer.Navigator>
   );
 }

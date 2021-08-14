@@ -17,6 +17,15 @@ const navegacaoStack = () => {
                     headerShown: false, 
                     }
                 }                
+            />   
+            <Stack.Screen 
+                name="sobre" 
+                component={navegacaoTab}
+                options={
+                    { cardStyle: estiloStack.screensobre,
+                    headerShown: false
+                    }            
+                }               
             />
             <Stack.Screen 
                 name="contato" 
@@ -26,15 +35,6 @@ const navegacaoStack = () => {
                     headerShown: false, 
                     }
                 }                
-            />
-            <Stack.Screen 
-                name="sobre" 
-                component={navegacaoTab}
-                options={
-                    { cardStyle: estiloStack.screensobre,
-                    headerShown: false
-                    }            
-                }               
             />
         </Stack.Navigator>
     );

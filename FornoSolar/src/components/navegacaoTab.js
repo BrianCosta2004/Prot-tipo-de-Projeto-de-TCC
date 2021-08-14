@@ -17,8 +17,8 @@ const navegacaoTab = () => {
       }
       }
     >
+      <Tab.Screen name="sobre" component={RotasDrawer} /> 
       <Tab.Screen name="contato" component={RotasDrawer} />
-      <Tab.Screen name="sobre" component={RotasDrawer} />
     </Tab.Navigator>
   );
 }
